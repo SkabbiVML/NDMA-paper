@@ -1,0 +1,147 @@
+﻿methylationClass,color
+A_IDH,#f1ba3a
+A_IDH_HG,#d9c845
+ANA_PA,#5750a9
+Anaplastic PXA,#534fa9
+Astroblastoma,#2e2e2e
+Astrocytoma IDHmut,#f1ba3a
+Astrocytoma IDHwt,#f1ba3a
+ATRT,#1d74ba
+ATRT_MYC,#1d74ba
+ATRT_SHH,#38a0d8
+ATRT_TYR,#51acde
+Atypical choroid plexus papilloma,#9e5525
+B-cell lymphoma,#321846
+CHGL,#8b7fc1
+CHORDM,#ca90c6
+CN,#c25621
+CNS_NB_FOXR2,#4491ce
+Conclusive,#cccccc
+Concordant,#cccccc
+CONTR_ADENOPIT,#c9d0d1
+CONTR_CEBM,#afbbbd
+CONTR_HEMI,#849397
+CONTR_HYPTHAL,#6f7f82
+CONTR_INFLAM,#d3d9da
+CONTR_PINEAL,#5d686d
+CONTR_PONS,#485356
+CONTR_REACT,#ced5d6
+CONTR_WM,#97a6a9
+CPH,#56cdce
+CPH_ADM,#6ad1c7
+CPH_PAP,#56cdce
+Craniopharyngioma,#56cdce
+Diffuse midline glioma,#96d48b
+Discordant,#2e2e2e
+DLGNT,#dd7140
+DMG,#96d48b
+DMG_K27,#96d48b
+EFT_CIC,#845eaf
+ENB_A,#b14a1f
+ENB_B,#ff7d45
+Ependymoma,#ff4c4d
+EPN_MPE,#c8283e
+EPN_PF_A,#fe3350
+EPN_PF_B,#f8455b
+EPN_RELA,#ee5350
+EPN_SPINE,#ff3c58
+EPN_YAP,#ff5e75
+ETMR,#309bd6
+EWS,#9a72b9
+Frozen_Conclusive,#cccccc
+Frozen_Inconclusive,#696969
+Ganglioglioma,#fb703f
+GBM_G34,#55c16b
+GBM_Mes,#4c8d42
+GBM_MID,#35823a
+GBM_MYCN,#63c258
+GBM_RTK_I,#66c255
+GBM_RTK_II,#7ccb73
+GBM_RTK_III,#76c54f
+Germ cell tumor,#cccccc
+Glioblastoma_IDHmut,#f1ba3a
+Glioblastoma_IDHwt,#7ccb73
+HGNET,#5e9ed2
+HGNET_BCOR,#5e9ed2
+HGNET_MN1,#9892c9
+High grade astrocytoma NOS,#d9c845
+High grade glioma NOS,#cccccc
+HMB,#ac70b7
+IHG,#c6b7da
+Inconclusive,#696969
+LGG,#7d73bb
+LGG_DIG/DIA,#e05220
+LGG_DNT,#dc5520
+LGG_GG,#fb703f
+LGG_MYB,#645eb1
+LGG_PA/GG_ST,#6252a2
+LGG_PA_mid,#9f8dc7
+LGG_PA_PF,#8374bb
+LGG_RGNT,#ff8d4e
+LGG_SEGA,#7d73bb
+LIPN,#ef7934
+Low grade NE tumor,#7d73bb
+LYMPHO,#321846
+Malignant sarcomatous tumor with BCOR duplication,#5e9ed2
+MB_G3,#2489c9
+MB_G4,#8bc3e7
+MB_SHH_CHL_AD,#2f85c9
+MB_SHH_INF,#7fbee5
+MB_WNT,#5cabdc
+MCF_ATRT,#1d74ba
+MCF_ENB,#b14a1f
+MCF_EPN,#ff4c4d
+MCF_GBM,#7ccb73
+MCF_IDH_GLM,#f1ba3a
+MCF_MB_G3G4,#2489c9
+MCF_MB_SHH,#2f85c9
+MCF_MNG,#ab70b7
+MCF_PA,#8374bb
+MCF_PLEX_T,#9e5525
+Medulloblastoma group 3/4,#8bc3e7
+Medulloblastoma SHH/WNT,#2f85c9
+MELAN,#184270
+MELCYT,#152947
+Meningioma,#ab70b7
+MNG,#ab70b7
+No,#8B0000
+No_impact,#8B0000
+O_IDH,#ffe05a
+Oligodendroglioma IDHmut 1p19q codel,#ffe05a
+Papillary craniopharyngioma,#56cdce
+Paraganglioma,#ff7e31
+PGG_nC,#ff7e31
+Pilocytic astrocytoma,#8374bb
+Pilocytic astrocytoma midline,#9f8dc7
+PIN_T__PB_A,#bfe2ae
+PIN_T__PB_B,#a4d99c
+PIN_T_PB_A,#bfe2ae
+PIN_T_PB_B,#a4d99c
+PIN_T_PPT,#a5d999
+PITAD_ACH,#29857d
+PITAD_ACTH,#29857d
+PITAD_FSH_LH,#41ada1
+PITAD_PRL,#35c2b3
+PITAD_STH_DNS_A,#3dc5be
+PITAD_STH_DNS_B,#41c8c8
+PITAD_STH_SPA,#51cabd
+PITAD_TSH,#4bc9be
+PITUI_SCO_GCT,#5ed0d4
+PLASMA,#56306d
+PLEX_AD,#773c1a
+PLEX_PED_A,#9e5525
+PLEX_PED_B,#703c26
+Potential_surgical_impact,#808000
+PTPR_A,#9ed792
+PTPR_B,#b3dd99
+PXA,#534fa9
+RETB,#ff915e
+Sarcoma_met,#cccccc
+SCHW,#ffdbaf
+SCHW_MEL,#ffc689
+Schwannoma,#ffdbaf
+SFT_HMPC,#c47cbc
+SUBEPN_PF,#f9302e
+SUBEPN_SPINE,#ff4c4d
+SUBEPN_ST,#ff5060
+Yes,#808000
