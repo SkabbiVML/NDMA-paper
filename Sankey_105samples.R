@@ -1,4 +1,4 @@
-# This script generates figure 1b, a sankey of all samples, how they were diagnosed by pathology and NDMA and if they are concordant
+# This script generates figure 1a, a sankey of all samples, how they were classified by pathology and NDMA and if they are concordant
 
 setwd("~/IntraopR")
 
@@ -64,7 +64,7 @@ p <- sankeyNetwork(Links = links, Nodes = nodes,
                    Source = "IDsource", Target = "IDtarget",
                    Value = "value", 
                    NodeID = "name",
-                   fontSize = 18,
+                   fontSize = 22,
                    fontFamily = "sans-serif",
                    nodeWidth = 15,
                    nodePadding = 15,
