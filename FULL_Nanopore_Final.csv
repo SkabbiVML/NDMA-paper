@@ -3,8 +3,8 @@ NDMA_1,M,Adult,"Glioblastoma, IDH-wildtype",Grade IV,Glioblastoma IDHwt,GBM,"Gli
 NDMA_10,M,Adult,Diffuse large B-cell lymphoma,no grade,B-cell lymphoma,LYMPHO,Lymphoma,LYMPHO,LYMPHO,LYMPHO,Concordant,Double_Blind,Frozen pathology,LYMPHO
 NDMA_2,F,Adult,Anaplastic oligodendroglioma (WHO grade III); IDH-mutant and 1p/19q-codeleted,Grade III,Oligodendroglioma IDHmut 1p19q codel,oligo,"IDH glioma, subclass 1p/19q codeleted oligodendroglioma.",IDH_G,oligo,O_IDH,Concordant,Double_Blind,Frozen pathology,MCF_IDH_GLM
 NDMA_3,M,Adult,"Anaplastic astrocytoma (WHO grade III), IDH-mutant",Grade III,Astrocytoma IDHmut,astro,"IDH glioma, subclass astrocytoma",IDH_G,astro,A_IDH,Concordant,Double_Blind,Frozen pathology,MCF_IDH_GLM
-NDMA_4,M,Adult,Papillary craniopharyngioma,Grade I,Papillary craniopharyngioma,CPH,"Craniopharyngioma,papillary",Cranio,Cranio,CPH_PAP,Concordant,Double_Blind,Frozen pathology,CPH
-NDMA_5,F,Adult,Rest/ recurrence of a ganglioglioma (WHO grade I),Grade I,Ganglioglioma,Ganglio,"Low grade glioma, dysembryoplastic neuroepithelial tumor.",LGG ,DNET,LGG_DNT,Discordant,Double_Blind,Frozen pathology,LGG
+NDMA_4,M,Adult,Papillary craniopharyngioma,Grade I,Papillary craniopharyngioma,CPH,"Craniopharyngioma,papillary",CPH,PAP,CPH_PAP,Concordant,Double_Blind,Frozen pathology,CPH
+NDMA_5,F,Adult,Rest/ recurrence of a ganglioglioma (WHO grade I),Grade I,Ganglioglioma,Ganglio,"Low grade glioma, dysembryoplastic neuroepithelial tumor.",LGG,DNET,LGG_DNT,Discordant,Double_Blind,Frozen pathology,LGG
 NDMA_6,M,Adult,"Glioblastoma, IDH-wildtype",Grade IV,Glioblastoma IDHwt,GBM,"Glioblastoma, IDH wildtype, subclass mesenchymal.",GBM,Mes,GBM_Mes,Concordant,Double_Blind,Frozen pathology,MCF_GBM
 NDMA_7,F,Adult,Oligodendroglioma (WHO grade II); IDH-mutant and 1p/19q-codeleted,Grade III,Oligodendroglioma IDHmut 1p19q codel,oligo,"IDH glioma, subclass 1p/19q codeleted oligodendroglioma.",IDH_G,oligo,O_IDH,Concordant,Double_Blind,Frozen pathology,MCF_IDH_GLM
 NDMA_8,M,Adult,"Glioblastoma, IDH-wildtype",Grade IV,Glioblastoma IDHwt,GBM,"Glioblastoma, IDH wildtype, subclass RTK II.",GBM,RTK_II,GBM_RTK_II,Concordant,Double_Blind,Frozen pathology,MCF_GBM
