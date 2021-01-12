@@ -3,10 +3,11 @@
 setwd("D:/IntraopR")
 
 library(ggsci)
+library(dplyr)
 
 Seq_stats <- read.csv("SeqStats.csv", header = T)
 
-Seq_stats <- mutate(Seq_stats, sum_seq = Mean_read_length * Read_num)
+#Seq_stats <- mutate(Seq_stats, sum_seq = Mean_read_length * Read_num)
 
 ############## CpGs vs Read numbers ########################
 library(ggplot2)
@@ -26,7 +27,7 @@ Q1 <- P2 + geom_point(size=5, stroke = 1, shape = 21, alpha = 0.8) +
   scale_fill_gradientn(colors=blues9,name="Sequencing\ntime (min)") +
     theme(legend.position="none")+
   scale_y_continuous(name="Total nucleotides analyzed (log10)") +
-  scale_x_continuous(name="Total CpG sites analyzed (log10)")
+  scale_x_continuous(name="Total CpG sites discovered (log10)")
 Q1
 
 ###########################################
@@ -48,7 +49,7 @@ Q3 <- P6 + geom_point(size=5, stroke = 1, shape = 21, alpha = 0.8) +
   theme(legend.position=c(.75, .75))+
   theme(legend.title = element_text(colour="black", size=16, face="bold"))+
   scale_x_continuous(name="Total CpG sites analyzed (log10)") +
-  scale_y_continuous(name="Out-of-Bag error rate")
+  scale_y_continuous(name="Out-of-bag error rate (%)")
 
 Q3
 #######################################
@@ -57,15 +58,17 @@ MCF_Seq_stats <- Seq_stats %>% filter(Minutes==30) %>% select(Patient, CpG_sites
                                gather("MCF.OOB.error", "Subclass.OOB.error", key = "Classifier", value = "OOB_Error")
 
 ############# MCF versus subclass error #####
-p7 <- ggplot(MCF_Seq_stats, aes(x=Classifier, y = OOB_Error, fill = CpG_sites))
+p7 <- ggplot(MCF_Seq_stats, aes(x=reorder(Classifier,-OOB_Error), y = OOB_Error, fill = CpG_sites))
 
 Q6 <- p7 + 
   geom_jitter(size=8, width = 0.05, height = 0, alpha = 0.8, shape = 21, stroke = 1)+
-  scale_fill_viridis_c(direction = -1) +
-  scale_y_continuous(limits = c(0,10), name="Out-of-Bag error rate")+
+  scale_fill_viridis_c(direction = -1,limits = c(1000, 11000), breaks = c(2000, 4000, 6000, 8000, 10000)) +
+  scale_y_continuous(limits = c(0,10), name="Out-of-bag error rate (%)")+
   #theme(legend.position=c(.80, .25))+
   theme(legend.title = element_text(colour="black", size=16, face="bold"))+
-  scale_x_discrete(name="Classifier", labels = c("MCF","Subclass")) +
+  guides(fill = guide_colourbar(barheight = 10))+
+  labs(fill = "CpG sites")+
+  scale_x_discrete(name="Classifier", labels = c("Subclass","MCF")) +
   theme_bw(15) 
 Q6
 
