@@ -1,0 +1,182 @@
+﻿methylationClass,color
+A IDH,#f1ba3a
+A IDH HG,#d9c845
+ANA PA,#5750a9
+Anaplastic PXA,#534fa9
+Astroblastoma,#2e2e2e
+Astrocytoma IDHmut,#f1ba3a
+Astrocytoma IDHwt,#f1ba3a
+ATRT,#1d74ba
+ATRT MYC,#1d74ba
+ATRT SHH,#38a0d8
+ATRT TYR,#51acde
+Atypical choroid plexus papilloma,#9e5525
+B-cell lymphoma,#321846
+CHGL,#8b7fc1
+CHORDM,#ca90c6
+CN,#c25621
+CNS NB FOXR2,#4491ce
+Conclusive,#cccccc
+Concordant,#cccccc
+CONTR ADENOPIT,#c9d0d1
+CONTR CEBM,#afbbbd
+CONTR HEMI,#849397
+CONTR HYPTHAL,#6f7f82
+CONTR INFLAM,#d3d9da
+CONTR PINEAL,#5d686d
+CONTR PONS,#485356
+CONTR REACT,#ced5d6
+CONTR WM,#97a6a9
+CPH,#56cdce
+CPH ADM,#6ad1c7
+CPH PAP,#56cdce
+Craniopharyngioma,#56cdce
+Diffuse midline glioma,#96d48b
+Discordant,#2e2e2e
+DLGNT,#dd7140
+DMG,#96d48b
+DMG K27,#96d48b
+EFT CIC,#845eaf
+ENB A,#b14a1f
+ENB B,#ff7d45
+Ependymoma,#ff4c4d
+EPN MPE,#c8283e
+EPN PF A,#fe3350
+EPN PF B,#f8455b
+EPN RELA,#ee5350
+EPN SPINE,#ff3c58
+EPN YAP,#ff5e75
+ETMR,#309bd6
+EWS,#9a72b9
+Frozen Conclusive,#cccccc
+Frozen Inconclusive,#696969
+Ganglioglioma,#fb703f
+GBM G34,#55c16b
+GBM Mes,#4c8d42
+GBM MID,#35823a
+GBM MYCN,#63c258
+GBM RTK I,#66c255
+GBM RTK II,#7ccb73
+GBM RTK III,#76c54f
+Germ cell tumor,#cccccc
+Glioblastoma IDHmut,#f1ba3a
+Glioblastoma IDHwt,#7ccb73
+HGNET,#5e9ed2
+HGNET BCOR,#5e9ed2
+HGNET MN1,#9892c9
+High grade astrocytoma NOS,#d9c845
+High grade glioma NOS,#cccccc
+HMB,#ac70b7
+IHG,#c6b7da
+Inconclusive,#696969
+LGG,#7d73bb
+LGG DIG/DIA,#e05220
+LGG DNT,#dc5520
+LGG GG,#fb703f
+LGG MYB,#645eb1
+LGG PA/GG ST,#6252a2
+LGG PA mid,#9f8dc7
+LGG PA PF,#8374bb
+LGG RGNT,#ff8d4e
+LGG SEGA,#7d73bb
+LIPN,#ef7934
+Low grade NE tumor,#7d73bb
+LYMPHO,#321846
+Malignant sarcomatous tumor with BCOR duplication,#5e9ed2
+MB G3,#2489c9
+MB G4,#8bc3e7
+MB SHH CHL AD,#2f85c9
+MB SHH INF,#7fbee5
+MB WNT,#5cabdc
+MCF ATRT,#1d74ba
+MCF ENB,#b14a1f
+MCF EPN,#ff4c4d
+MCF GBM,#7ccb73
+MCF IDH GLM,#f1ba3a
+MCF MB G3G4,#2489c9
+MCF MB SHH,#2f85c9
+MCF MNG,#ab70b7
+MCF PA,#8374bb
+MCF PLEX T,#9e5525
+Medulloblastoma group 3/4,#8bc3e7
+Medulloblastoma SHH/WNT,#2f85c9
+MELAN,#184270
+MELCYT,#152947
+Meningioma,#ab70b7
+MNG,#ab70b7
+No,#8B0000
+No impact,#8B0000
+O IDH,#ffe05a
+Oligodendroglioma IDHmut 1p19q codel,#ffe05a
+Papillary craniopharyngioma,#56cdce
+Paraganglioma,#ff7e31
+PGG nC,#ff7e31
+Pilocytic astrocytoma,#8374bb
+Pilocytic astrocytoma midline,#9f8dc7
+PIN T  PB A,#bfe2ae
+PIN T  PB B,#a4d99c
+PIN T PB A,#bfe2ae
+PIN T PB B,#a4d99c
+PIN T PPT,#a5d999
+PITAD ACH,#29857d
+PITAD ACTH,#29857d
+PITAD FSH LH,#41ada1
+PITAD PRL,#35c2b3
+PITAD STH DNS A,#3dc5be
+PITAD STH DNS B,#41c8c8
+PITAD STH SPA,#51cabd
+PITAD TSH,#4bc9be
+PITUI SCO GCT,#5ed0d4
+PLASMA,#56306d
+PLEX AD,#773c1a
+PLEX PED A,#9e5525
+PLEX PED B,#703c26
+Potential surgical impact,#808000
+PTPR A,#9ed792
+PTPR B,#b3dd99
+PXA,#534fa9
+RETB,#ff915e
+Sarcoma met,#cccccc
+SCHW,#ffdbaf
+SCHW MEL,#ffc689
+Schwannoma,#ffdbaf
+SFT HMPC,#c47cbc
+SUBEPN PF,#f9302e
+SUBEPN SPINE,#ff4c4d
+SUBEPN ST,#ff5060
+Yes,#808000
+GBM,#7ccb73
+G34,#55c16b
+Mes,#4c8d42
+MID,#35823a
+MYCN,#63c258
+RTK I,#66c255
+RTK II,#7ccb73
+RTK III,#76c54f
+MB G3G4,#2489c9
+MB SHH,#2f85c9
+MB,#2f85c9
+G3,#2489c9
+G4,#8bc3e7
+SHH CHL AD,#2f85c9
+SHH INF,#7fbee5
+WNT,#5cabdc
+DIG/DIA,#e05220
+DNT,#dc5520
+GG,#fb703f
+MYB,#645eb1
+PA/GG ST,#6252a2
+PA mid,#9f8dc7
+PA PF,#8374bb
+RGNT,#ff8d4e
+SEGA,#7d73bb
+MPE,#c8283e
+PF A,#fe3350
+PF B,#f8455b
+RELA,#ee5350
+SPINE,#ff3c58
+YAP,#ff5e75
+EPN,#ff4c4d
+PLEX,#9e5525
+IDH glioma,#f1ba3a
+IDH G,#f1ba3a

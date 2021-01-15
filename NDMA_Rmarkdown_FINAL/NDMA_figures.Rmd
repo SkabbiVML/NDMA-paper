@@ -1,0 +1,47 @@
+---
+title: "NDMA figures"
+author: "Skarphéðinn Halldórsson, Luis Kuschel"
+output: 
+  html_document:
+    toc: true
+---
+### Figure 1A
+
+
+```{r, code=xfun::read_utf8("./scripts/Sankey_105samples.R"), eval = T, message = F, fig.width = 9.5, fig.height= 9.5}
+```
+Figure 1A: 
+Sankey plot of the 105 CNS tumors reported in the study. Final neuropathological diagnosis (left) compared to NDMA diagnosis (center). NDMA was concordant with final neuropathological diagnosis in 93 of the 105 cases. For abbreviations see Extended data.
+
+### Figure 1C & 1D
+
+
+```{r, code=xfun::read_utf8("./scripts/IntraStatPlots_20samples.R"), eval = T, message = F, fig.width=15, fig.asp= 0.35, fig.fullwidth=TRUE}
+```
+Figure 1C: 
+Dot plots demonstrating the relationships between total sequenced nucleotides and total CpG sites detected (left panel) and between ad hoc random forest out-of-bag (OOB) error rate and total analyzed CpG sites (right panel) using the full classification. Color indicates elapsed sequencing time
+
+Figure 1D: 
+Comparison of random forest OOB error using the methylation class family (MCF) classifier or full subclassification after 30 minutes of nanopore sequencing. Color indicates the number of CpG sites.
+
+### Figure 2E
+
+
+```{r, code=xfun::read_utf8("./scripts/Sankey_Surgical_Impact.R"), eval = T, message = F, warning = F, fig.width = 9.5}
+```
+Figure 2E: 
+Sankey plot demonstrating the final neuropathological diagnosis (left), the intraoperative NDMA analysis (for abbreviations see Extended data), the result from intraoperative frozen section pathology and whether improved intraoperative diagnostic classification would have impacted surgical decision-making. 
+
+### Extended Figure 1
+
+
+```{r, code=xfun::read_utf8("./scripts/Barplot_For_Cohorts.R"), eval = T, message = F, fig.width = 15, fig.asp = 0.35, fig.fullwidth = TRUE}
+```
+Extended Figure 1
+Overview of patient cohorts presented in the study. Validation set, PNET, double-blind and inconclusive frozen-sections were analyzed retrospectively. Prospective and intraoperative cases were analyzed prospectively.
+
+### Software.
+
+```{r task1_software}
+sessionInfo()
+```
