@@ -19,7 +19,7 @@ Sankey plot of the 105 CNS tumors reported in the study. Final neuropathological
 ```{r, code=xfun::read_utf8("./scripts/IntraStatPlots_20samples.R"), eval = T, message = F, fig.width=15, fig.asp= 0.35, fig.fullwidth=TRUE}
 ```
 Figure 1C: 
-Dot plots demonstrating the relationships between total sequenced nucleotides and total CpG sites detected (left panel) and between ad hoc random forest out-of-bag (OOB) error rate and total analyzed CpG sites (right panel) using the full classification. Color indicates elapsed sequencing time
+Dot plots demonstrating the relationship between sequencing time and total CpG sites detected (left panel) and between ad hoc random forest out-of-bag (OOB) error rate and sequencing time using the subgroup classifier (right panel). Dotted line demarks 3500 CpG cut-off for analysis, black line demarks polynomial regression with 95% CI. 
 
 Figure 1D: 
 Comparison of random forest OOB error using the methylation class family (MCF) classifier or full subclassification after 30 minutes of nanopore sequencing. Color indicates the number of CpG sites.
